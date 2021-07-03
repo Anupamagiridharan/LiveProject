@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46384" started-at="2021-07-01T13:14:45Z" finished-at="2021-07-01T13:15:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46384" started-at="2021-07-01T13:14:45Z" finished-at="2021-07-01T13:15:32Z">
+      <class name="execute.ExecuteHome">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:execute.ExecuteHome@4bee09]" name="launchBrowser" is-config="true" duration-ms="9477" started-at="2021-07-01T13:14:46Z" finished-at="2021-07-01T13:14:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testCase01verifyLogOutFunctionality()[pri:0, instance:execute.ExecuteHome@4bee09]" name="testCase01verifyLogOutFunctionality" duration-ms="6011" started-at="2021-07-01T13:14:55Z" finished-at="2021-07-01T13:15:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01verifyLogOutFunctionality -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:execute.ExecuteHome@4bee09]" name="closeBrowser" is-config="true" duration-ms="884" started-at="2021-07-01T13:15:01Z" finished-at="2021-07-01T13:15:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase01verifyLogOutFunctionality status=SUCCESS method=ExecuteHome.testCase01verifyLogOutFunctionality()[pri:0, instance:execute.ExecuteHome@4bee09] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:execute.ExecuteHome@4bee09]" name="launchBrowser" is-config="true" duration-ms="8013" started-at="2021-07-01T13:15:02Z" finished-at="2021-07-01T13:15:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testCase02verifySettingTabFunctionality()[pri:0, instance:execute.ExecuteHome@4bee09]" name="testCase02verifySettingTabFunctionality" duration-ms="8014" started-at="2021-07-01T13:15:10Z" finished-at="2021-07-01T13:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase02verifySettingTabFunctionality -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:execute.ExecuteHome@4bee09]" name="closeBrowser" is-config="true" duration-ms="863" started-at="2021-07-01T13:15:18Z" finished-at="2021-07-01T13:15:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase02verifySettingTabFunctionality status=SUCCESS method=ExecuteHome.testCase02verifySettingTabFunctionality()[pri:0, instance:execute.ExecuteHome@4bee09] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:execute.ExecuteHome@4bee09]" name="launchBrowser" is-config="true" duration-ms="7873" started-at="2021-07-01T13:15:19Z" finished-at="2021-07-01T13:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testCase03verifylogoFontSize()[pri:0, instance:execute.ExecuteHome@4bee09]" name="testCase03verifylogoFontSize" duration-ms="4230" started-at="2021-07-01T13:15:27Z" finished-at="2021-07-01T13:15:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase03verifylogoFontSize -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:execute.ExecuteHome@4bee09]" name="closeBrowser" is-config="true" duration-ms="916" started-at="2021-07-01T13:15:31Z" finished-at="2021-07-01T13:15:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase03verifylogoFontSize status=SUCCESS method=ExecuteHome.testCase03verifylogoFontSize()[pri:0, instance:execute.ExecuteHome@4bee09] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- execute.ExecuteHome -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

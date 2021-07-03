@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [testBasics1]" parallel="tests">
+  <test thread-count="2" name="chromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="execute.ExecuteWorkersPage">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="testCase06selectDateFromDatePicker"/>
+        </methods>
+      </class> <!-- execute.ExecuteWorkersPage -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+  <test thread-count="2" name="firefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="execute.ExecuteWorkersPage">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="testCase06selectDateFromDatePicker"/>
+        </methods>
+      </class> <!-- execute.ExecuteWorkersPage -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
+</suite> <!-- Failed suite [testBasics1] -->
